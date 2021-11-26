@@ -4,12 +4,12 @@
 <i>NOTE: You may be looking at a repository made with the template https://github.com/JustinGOSSES/awsome-list-visual-explorer-template or you may be looking at the actual code repository https://github.com/JustinGOSSES/awsome-list-visual-explorer-template. If the name of the code repository is not <b>awsome-list-visual-explorer-template</b>, you are looking at a code repository made with the template.</i>
 
 ## Description of this code repository if not the template:
-- Repository Name: 
-- Repository Authors: 
-- Purpose:
+- Repository Name: awesome-dataviz-visual-explorer
+- Repository Authors: Justin Gosses
+- Purpose: Visually Explore the awesome-dataviz awesome list
 - Link To Awesome List Parsed In This Code Project:
-- Link to Live Website: <b><a href="">none yet</a></b>
-- Last Ran in Full On: YYYY-MM-DD
+- Link to Live Website: <b><a href="https://justingosses.github.io/awesome-dataviz-visual-explorer/">https://justingosses.github.io/awesome-dataviz-visual-explorer/</a></b>
+- Last Ran in Full On: 2021-11-24
 
 ### Contributing to this repository if not the template
 ------------ INFORMATION GOES HERE ------------

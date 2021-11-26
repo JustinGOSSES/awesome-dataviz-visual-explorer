@@ -4,13 +4,15 @@ function draw_force_graph(areaID, adjacentAreaID) {
     var url2 = ghDataDir + '/dependencyInfo.json';
     var files = [url1, url2];
     // Converts json file into object, reformats data, and then draws graph.
+    console.log("test url1",d3.json(url1).then(values => console.log(values)))
+    console.log("test url2",d3.json(url2).then(values => console.log(values)))
     Promise.all(files.map(url => d3.json(url))).then(values => drawGraph(reformatData(values[0], values[1]), areaID, adjacentAreaID));
 
     // Draws graph
     function drawGraph(data, areaID, adjacentAreaID) {
         // <!-- replaced -->
         // const graphHeader = 'LLNL Dependencies';
-        const graphHeader = 'SWUNG Dependencies';
+        const graphHeader = 'Dependencies';
 
         const margin = { top: stdMargin.top, right: stdMargin.right / 2, bottom: stdMargin.bottom / 2, left: stdMargin.left / 2 },
             width = stdTotalWidth * 2 + 80 - margin.left - margin.right,
